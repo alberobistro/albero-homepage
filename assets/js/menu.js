@@ -2,10 +2,10 @@ const menu = [
   // STARTERS
   {
     url: "assets/img/menu/starters/olives.avif",
-    name: "Olives",
+    name: "Oliven",
     price: "5,00",
     category: "starters",
-    descriptionDe: "deutsch",
+    descriptionDe: "Portion Oliven",
     descriptionEn: "Portion of olives",
   },
   {
@@ -13,7 +13,7 @@ const menu = [
     name: "Burrata",
     price: "11,00",
     category: "starters",
-    descriptionDe: "deutsch",
+    descriptionDe: "Büffelburrata aus Brandenburg, Rucola und Kirschtomaten",
     descriptionEn:
       "buffalo burrata from Brandenburg, rocket and cherry tomatoes",
   },
@@ -22,7 +22,7 @@ const menu = [
     name: "Mozzarella di Bufala",
     price: "11,00",
     category: "starters",
-    descriptionDe: "deutsch",
+    descriptionDe: "Büffelmozzarella aus Brandenburg, Rucola und Kirschtomaten",
     descriptionEn:
       "buffalo mozzarella from Brandenburg, rocket and cherry tomatoes",
   },
@@ -32,7 +32,7 @@ const menu = [
     name: "Basic Salat",
     price: "7,50",
     category: "salads",
-    descriptionDe: "deutsch",
+    descriptionDe: "Salat nach Saison, mit Balsamico-Dressing",
     descriptionEn: "seasonal salad, mit Balsamic-Dressing",
   },
   {
@@ -40,7 +40,7 @@ const menu = [
     name: "Artichoke Salad",
     price: "10,50",
     category: "salads",
-    descriptionDe: "deutsch",
+    descriptionDe: "in Öl eingelegt, mit Balsamico-Dressing",
     descriptionEn: "soaked in oil, with balsamic-dressing",
   },
   {
@@ -48,7 +48,7 @@ const menu = [
     name: "Avocado Cheese Salad",
     price: "10,50",
     category: "salads",
-    descriptionDe: "deutsch",
+    descriptionDe: "mit Balsamico-Dressing",
     descriptionEn: "with Balsamic-Dressing",
   },
   {
@@ -56,7 +56,7 @@ const menu = [
     name: "Tuna Salad",
     price: "11,50",
     category: "salads",
-    descriptionDe: "deutsch",
+    descriptionDe: "mit Balsamico-Dressing",
     descriptionEn: "with Balsamic-Dressing",
   },
   // PIZZA
@@ -65,79 +65,86 @@ const menu = [
     name: "Margherita Pizza",
     price: "11,00",
     category: "pizza",
-    descriptionDe: "deutsch",
+    descriptionDe: "mit Tomatensoße Gustarosso, Fior di Latte und Basilikum",
     descriptionEn: "with tomato sauce Gustarosso, Fior di Latte and basil",
-  },
-  {
-    url: "assets/img/menu/pizza/Bufala_Pizza.avif",
-    name: "Bufala Pizza",
-    price: "15,00",
-    category: "pizza",
-    descriptionDe: "deutsch",
-    descriptionEn:
-      "with tomato sauce Gustarosso, basil, buffalo mozzarella from Brandenburg and dried tomatoes",
-  },
-  {
-    url: "assets/img/menu/pizza/Burrata_Pizza.avif",
-    name: "Burrata Pizza",
-    price: "14,50",
-    category: "pizza",
-    descriptionDe: "deutsch",
-    descriptionEn:
-      "with tomato sauce Gustarosso, buffalo burrata from Brandenburg and basil",
-  },
-  {
-    url: "assets/img/menu/pizza/Carciofi_Pizza.avif",
-    name: "Carciofi Pizza",
-    price: "12,00",
-    category: "pizza",
-    descriptionDe: "deutsch",
-    descriptionEn:
-      "vegan or vegetarian\nwith artichokes, spinach, sun-dried tomatoes",
-  },
-  {
-    url: "assets/img/menu/pizza/Pastrami_Pizza.avif",
-    name: "Pastrami Pizza",
-    price: "15,00",
-    category: "pizza",
-    descriptionDe: "deutsch",
-    descriptionEn:
-      "with tomato sauce Gustarosso, Fior di Latte, air-dried beef ham, creme fraiche and oregano",
-  },
-  {
-    url: "assets/img/menu/pizza/Quattro_Formaggi_Pizza.avif",
-    name: "Quattro Formaggi Pizza",
-    price: "12,00",
-    category: "pizza",
-    descriptionDe: "deutsch",
-    descriptionEn: "with four different types of cheese",
-  },
-  {
-    url: "assets/img/menu/pizza/Salmone_Pizza.avif",
-    name: "Salmone Pizza",
-    price: "16,00",
-    category: "pizza",
-    descriptionDe: "deutsch",
-    descriptionEn:
-      "with creme fraiche, smoked salmon, avocado, herder cheese and pink pepper",
-  },
-  {
-    url: "assets/img/menu/pizza/Tonno_Pizza.avif",
-    name: "Tonno Pizza",
-    price: "14,00",
-    category: "pizza",
-    descriptionDe: "deutsch",
-    descriptionEn:
-      "with tomato sauce Gustarosso, Fior di Latte, tuna, onions and oregano",
   },
   {
     url: "assets/img/menu/pizza/Vegetariana_Pizza.avif",
     name: "Vegetariana Pizza",
     price: "12,00",
     category: "pizza",
-    descriptionDe: "deutsch",
+    descriptionDe:
+      "vegan oder vegetarisch\nmit Tomatensoße Gustarosso, Zucchini, Auberginen, Champignons und Oregano",
     descriptionEn:
       "vegan or vegetarian\nwith tomato sauce Gustarosso, zucchini, aubergines, champignons and oregano",
+  },
+  {
+    url: "assets/img/menu/pizza/Carciofi_Pizza.avif",
+    name: "Carciofi Pizza",
+    price: "12,00",
+    category: "pizza",
+    descriptionDe:
+      "vegan oder vegetarisch\nmit Artischocken, Spinat und getrockneten Tomaten",
+    descriptionEn:
+      "vegan or vegetarian\nwith artichokes, spinach, sun-dried tomatoes",
+  },
+  {
+    url: "assets/img/menu/pizza/Quattro_Formaggi_Pizza.avif",
+    name: "Quattro Formaggi Pizza",
+    price: "12,00",
+    category: "pizza",
+    descriptionDe: "mit vier verschiedenen Käsesorten",
+    descriptionEn: "with four different types of cheese",
+  },
+  {
+    url: "assets/img/menu/pizza/Tonno_Pizza.avif",
+    name: "Tonno Pizza",
+    price: "14,00",
+    category: "pizza",
+    descriptionDe:
+      "mit Tomatensoße Gustarosso, Fior di Latte, Thunfisch, Zwiebeln und Oregano",
+    descriptionEn:
+      "with tomato sauce Gustarosso, Fior di Latte, tuna, onions and oregano",
+  },
+  {
+    url: "assets/img/menu/pizza/Burrata_Pizza.avif",
+    name: "Burrata Pizza",
+    price: "14,50",
+    category: "pizza",
+    descriptionDe:
+      "mit Tomatensoße Gustarosso, Büffelburrata aus Brandenburg und Basilikum",
+    descriptionEn:
+      "with tomato sauce Gustarosso, buffalo burrata from Brandenburg and basil",
+  },
+  {
+    url: "assets/img/menu/pizza/Bufala_Pizza.avif",
+    name: "Bufala Pizza",
+    price: "15,00",
+    category: "pizza",
+    descriptionDe:
+      "mit Tomatensoße Gustarosso, Basilikum, Büffelmozzarella aus Brandenburg und getrockneten Tomaten",
+    descriptionEn:
+      "with tomato sauce Gustarosso, basil, buffalo mozzarella from Brandenburg and dried tomatoes",
+  },
+  {
+    url: "assets/img/menu/pizza/Pastrami_Pizza.avif",
+    name: "Pastrami Pizza",
+    price: "15,00",
+    category: "pizza",
+    descriptionDe:
+      "mit Tomatensoße Gustarosso, Fior di Latte, luftgetrockneten Rinderschinken, Creme Fraiche und Oregano",
+    descriptionEn:
+      "with tomato sauce Gustarosso, Fior di Latte, air-dried beef ham, creme fraiche and oregano",
+  },
+  {
+    url: "assets/img/menu/pizza/Salmone_Pizza.avif",
+    name: "Salmone Pizza",
+    price: "16,00",
+    category: "pizza",
+    descriptionDe:
+      "mit Creme Fraiche, Räucherlachs, Avocado, Hirtenkäse und rosa Pfeffer",
+    descriptionEn:
+      "with creme fraiche, smoked salmon, avocado, herder cheese and pink pepper",
   },
   // PASTA
   {
@@ -145,7 +152,7 @@ const menu = [
     name: "Penne Napoli",
     price: "11,00",
     category: "pasta",
-    descriptionDe: "deutsch",
+    descriptionDe: "Kurznudeln mit Tomatensoße",
     descriptionEn: "short pasta with tomato sauce",
   },
   {
@@ -153,7 +160,7 @@ const menu = [
     name: "Lasagne",
     price: "11,50",
     category: "pasta",
-    descriptionDe: "deutsch",
+    descriptionDe: "selbstgemacht",
     descriptionEn: "homemade",
   },
   {
@@ -161,7 +168,7 @@ const menu = [
     name: "Penne Arrabiata",
     price: "12,00",
     category: "pasta",
-    descriptionDe: "deutsch",
+    descriptionDe: "Kurznudeln mit Napolisoße, Chili und Knoblauch",
     descriptionEn: "short pasta with napoli sauce, chili and garlic",
   },
   {
@@ -169,7 +176,7 @@ const menu = [
     name: "Tagliatelle Ragú alla Bolognese",
     price: "13,50",
     category: "pasta",
-    descriptionDe: "deutsch",
+    descriptionDe: "Bandnudeln mit Rindfleisch-Ragú",
     descriptionEn: "ribbon noodles with beef ragú",
   },
   {
@@ -177,7 +184,8 @@ const menu = [
     name: "Tagliatelle Salmone",
     price: "16,00",
     category: "pasta",
-    descriptionDe: "deutsch",
+    descriptionDe:
+      "Bandnudeln mit Rose-Soße, Lachsfilet, Dill, Petersilie und Datteltomaten",
     descriptionEn:
       "ribbon noodles with rose sauce, salmon fillet, dill, parsley and date tomatoes",
   },
@@ -186,7 +194,7 @@ const menu = [
     name: "Tagliatelle con Crema al Tartufo",
     price: "16,00",
     category: "pasta",
-    descriptionDe: "deutsch",
+    descriptionDe: "Bandnudeln mit Steinpilzen, Trüffelcreme und Trüffelöl",
     descriptionEn:
       "ribbon noodles with porcini mushrooms, truffle cream and truffle oil",
   },
@@ -194,11 +202,109 @@ const menu = [
   {
     url: "assets/img/menu/dessert/Tiramisu.avif",
     name: "Tiramisu",
-    price: "7,00 (incl. 2€ deposit)",
+    price: "7,00",
     category: "dessert",
-    descriptionDe: "deutsch",
+    descriptionDe:
+      "Due to the way they are stored, the products can come into contact with nuts.\n(incl. 2€ deposit)",
     descriptionEn:
-      "Due to the way they are stored, the products can come into contact with nuts.",
+      "Due to the way they are stored, the products can come into contact with nuts.\n(incl. 2€ deposit)",
+  },
+  // DRINKS
+  {
+    url: "assets/img/menu/drinks/Proviant_Cola_0,33l.avif",
+    name: "Proviant Cola 0,33l",
+    price: "3,00",
+    category: "drinks",
+    descriptionDe: "inkl. 0,08€ Pfand, 9,09€/l",
+    descriptionEn: "incl. 0,08€ deposit, 9,09€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Proviant_Cola_Sugarfree_0,33l.avif",
+    name: "Proviant Cola Sugarfree 0,33l",
+    price: "3,00",
+    category: "drinks",
+    descriptionDe: "inkl. 0,08€ Pfand, 9,09€/l",
+    descriptionEn: "incl. 0,08€ deposit, 9,09€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Proviant_Limo_Orange_Lemonade_0,33l.avif",
+    name: "Proviant Limo Orange Lemonade 0,33l",
+    price: "3,00",
+    category: "drinks",
+    descriptionDe: "inkl. 0,08€ Pfand, 9,09€/l",
+    descriptionEn: "incl. 0,08€ deposit, 9,09€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Proviant_Limo_Lemonade_0,33l.avif",
+    name: "Proviant Limo Lemonade 0,33l",
+    price: "3,00",
+    category: "drinks",
+    descriptionDe: "inkl. 0,08€ Pfand, 9,09€/l",
+    descriptionEn: "incl. 0,08€ deposit, 9,09€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Proviant_Limo_Lemon_Ginger_0,33l.avif",
+    name: "Proviant Limo Lemon & Ginger 0,33l",
+    price: "3,00",
+    category: "drinks",
+    descriptionDe: "inkl. 0,08€ Pfand, 9,09€/l",
+    descriptionEn: "incl. 0,08€ deposit, 9,09€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Proviant_Limo_Rhubarb_Lemonade_0,33l.avif",
+    name: "Proviant Limo Rhubarb Lemonade 0,33l",
+    price: "3,00",
+    category: "drinks",
+    descriptionDe: "inkl. 0,08€ Pfand, 9,09€/l",
+    descriptionEn: "incl. 0,08€ deposit, 9,09€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Proviant_Spritzer_Apple_0,33l.avif",
+    name: "Proviant Spritzer Apple 0,33l",
+    price: "3,00",
+    category: "drinks",
+    descriptionDe: "inkl. 0,08€ Pfand, 9,09€/l",
+    descriptionEn: "incl. 0,08€ deposit, 9,09€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Viva_con_Agua_Sparkling_0,33l.avif",
+    name: "Viva con Agua Sparkling 0,33l",
+    price: "2,50",
+    category: "drinks",
+    descriptionDe: "inkl. 0,15€ Pfand, 7,58€/l",
+    descriptionEn: "incl. 0,15€ deposit, 7,58€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Viva_con_Agua_Sparkling_0,75l.avif",
+    name: "Viva con Agua Sparkling 0,75l",
+    price: "4,80",
+    category: "drinks",
+    descriptionDe: "inkl. 0,15€ Pfand, 6,40€/l",
+    descriptionEn: "incl. 0,15€ deposit, 6,40€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Viva_con_Agua_Still_0,33l.avif",
+    name: "Viva con Agua Still 0,33l",
+    price: "2,50",
+    category: "drinks",
+    descriptionDe: "inkl. 0,15€ Pfand, 7,58€/l",
+    descriptionEn: "incl. 0,15€ deposit, 7,58€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Viva_con_Agua_Still_0,75l.avif",
+    name: "Viva con Agua Still 0,75l",
+    price: "4,80",
+    category: "drinks",
+    descriptionDe: "inkl. 0,15€ Pfand, 6,40€/l",
+    descriptionEn: "incl. 0,15€ deposit, 6,40€/l",
+  },
+  {
+    url: "assets/img/menu/drinks/Ostmost_Apple_Juice_0,33l.avif",
+    name: "Ostmost Apple Juice 0,33l",
+    price: "3,00",
+    category: "drinks",
+    descriptionDe: "inkl. 0,08€ Pfand, 9,09€/l",
+    descriptionEn: "incl. 0,08€ deposit, 9,09€/l",
   },
 ];
 
