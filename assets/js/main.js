@@ -7,6 +7,17 @@
 ;(function () {
   'use strict'
 
+  const languageBtn = document.getElementById('language-btn')
+  const currentLanguage = localStorage.getItem('language') || 'DE'
+  const availableLanguage = currentLanguage === 'DE' ? 'EN' : 'DE'
+  languageBtn.innerHTML = availableLanguage
+
+  languageBtn.onclick = (e) => {
+    const selectedLanguage = e.target.innerHTML
+    localStorage.setItem('language', selectedLanguage)
+    location.reload()
+  }
+
   /**
    * Easy selector helper function
    */
