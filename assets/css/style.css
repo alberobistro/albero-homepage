@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #0c0b09;
   color: #fff;
 }
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 /*--------------------------------------------------------------
@@ -48,7 +48,7 @@ h6 {
 }
 
 #preloader:before {
-  content: "";
+  content: '';
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
@@ -171,7 +171,7 @@ h6 {
   display: inline-block;
   padding-right: 10px;
   color: rgba(255, 255, 255, 0.5);
-  content: "/";
+  content: '/';
 }
 
 /*--------------------------------------------------------------
@@ -200,7 +200,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #header .logo a {
@@ -456,15 +456,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/38212bc3-f29b-41d0-a536-148d17b52a0c.JPG") center
-    center;
+  background: url('../img/38212bc3-f29b-41d0-a536-148d17b52a0c.JPG') center center;
   background-size: cover;
   position: relative;
   padding: 0;
 }
 
 #hero:before {
-  content: "";
+  content: '';
   background: rgba(60, 60, 60, 0.5);
   position: absolute;
   bottom: 0;
@@ -489,7 +488,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #hero h1 span {
@@ -542,7 +541,7 @@ h6 {
 }
 
 #hero .play-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -557,7 +556,7 @@ h6 {
 }
 
 #hero .play-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 120px;
   height: 120px;
@@ -585,7 +584,7 @@ h6 {
 }
 
 #hero .play-btn:hover::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -682,11 +681,11 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .section-title h2::after {
-  content: "";
+  content: '';
   width: 120px;
   height: 1px;
   display: inline-block;
@@ -699,7 +698,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   color: #cda45e;
 }
 
@@ -740,7 +739,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #37332a;
-  content: "/";
+  content: '/';
 }
 
 @media (max-width: 768px) {
@@ -759,15 +758,14 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/144156e5-be52-427e-9161-7d71df5d343a.JPG") center
-    center;
+  background: url('../img/144156e5-be52-427e-9161-7d71df5d343a.JPG') center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
 }
 
 .about:before {
-  content: "";
+  content: '';
   background: rgba(60, 60, 60, 0.9);
   position: absolute;
   bottom: 0;
@@ -794,7 +792,7 @@ section {
   width: 60px;
   height: 60px;
   z-index: 1;
-  content: "";
+  content: '';
   border-left: 5px solid #cda45e;
   border-top: 5px solid #cda45e;
   transition: 0.5s;
@@ -807,7 +805,7 @@ section {
   width: 60px;
   height: 60px;
   z-index: 2;
-  content: "";
+  content: '';
   border-right: 5px solid #cda45e;
   border-bottom: 5px solid #cda45e;
   transition: 0.5s;
@@ -923,7 +921,7 @@ section {
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .menu #menu-flters li:hover,
@@ -958,16 +956,16 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................"
-    "...................................................................."
-    "....................................................................";
+  content: '......................................................................'
+    '....................................................................'
+    '....................................................................';
   position: absolute;
   left: 20px;
   right: 0;
   top: -4px;
   z-index: 1;
   color: #bab3a6;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .menu .menu-content a {
@@ -997,7 +995,7 @@ section {
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1074,7 +1072,7 @@ section {
 }
 
 .events::before {
-  content: "";
+  content: '';
   background-color: rgba(60, 60, 60, 0.8);
   position: absolute;
   top: 0;
@@ -1114,7 +1112,7 @@ section {
 
 .events .event-item .price {
   font-size: 26px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1206,7 +1204,7 @@ section {
 }
 
 .book-a-table .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1256,7 +1254,7 @@ section {
   padding: 10px 12px;
 }
 
-.book-a-table .php-email-form button[type="submit"] {
+.book-a-table .php-email-form button[type='submit'] {
   background: #cda45e;
   border: 0;
   padding: 10px 35px;
@@ -1265,7 +1263,7 @@ section {
   border-radius: 50px;
 }
 
-.book-a-table .php-email-form button[type="submit"]:hover {
+.book-a-table .php-email-form button[type='submit']:hover {
   background: #d3af71;
 }
 
@@ -1478,7 +1476,7 @@ section {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact .info p {
@@ -1535,7 +1533,7 @@ section {
 }
 
 .contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1585,7 +1583,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type='submit'] {
   background: #cda45e;
   border: 0;
   padding: 10px 35px;
@@ -1594,7 +1592,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type='submit']:hover {
   background: #d3af71;
 }
 
@@ -1644,14 +1642,14 @@ section {
   line-height: 1;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   color: #fff;
 }
 
@@ -1731,7 +1729,7 @@ section {
   border: 1px solid #454035;
 }
 
-#footer .footer-top .footer-newsletter form input[type="email"] {
+#footer .footer-top .footer-newsletter form input[type='email'] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
@@ -1739,7 +1737,7 @@ section {
   color: white;
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"] {
+#footer .footer-top .footer-newsletter form input[type='submit'] {
   position: absolute;
   top: -1px;
   right: -1px;
@@ -1754,7 +1752,7 @@ section {
   border-radius: 50px;
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+#footer .footer-top .footer-newsletter form input[type='submit']:hover {
   background: #d3af71;
 }
 
