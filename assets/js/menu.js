@@ -2,7 +2,8 @@ const menu = [
   // STARTERS
   {
     url: 'assets/img/menu/starters/olives.avif',
-    'name-EN': 'Oliven',
+    'name-EN': 'Olives',
+    'name-DE': 'Oliven',
     price: '5,00',
     category: 'starters',
     'description-DE': 'Portion Oliven',
@@ -11,6 +12,7 @@ const menu = [
   {
     url: 'assets/img/menu/starters/burrata.avif',
     'name-EN': 'Burrata',
+    'name-DE': 'Burrata',
     price: '11,00',
     category: 'starters',
     'description-DE': 'Büffelburrata aus Brandenburg, Rucola und Kirschtomaten',
@@ -19,6 +21,7 @@ const menu = [
   {
     url: 'assets/img/menu/starters/Mozzarella_di_Bufala.avif',
     'name-EN': 'Mozzarella di Bufala',
+    'name-DE': 'Mozzarella di Bufala',
     price: '11,00',
     category: 'starters',
     'description-DE': 'Büffelmozzarella aus Brandenburg, Rucola und Kirschtomaten',
@@ -27,15 +30,17 @@ const menu = [
   // SALADS
   {
     url: 'assets/img/menu/salads/Basic_Salat.avif',
-    'name-EN': 'Basic Salat',
+    'name-EN': 'Basic Salad',
+    'name-DE': 'Basic Salat',
     price: '7,50',
     category: 'salads',
     'description-DE': 'Salat nach Saison, mit Balsamico-Dressing',
-    'description-EN': 'seasonal salad, mit Balsamic-Dressing',
+    'description-EN': 'seasonal salad, with Balsamic-Dressing',
   },
   {
     url: 'assets/img/menu/salads/Artichoke_Salad.avif',
     'name-EN': 'Artichoke Salad',
+    'name-DE': 'Artichoke Salat',
     price: '10,50',
     category: 'salads',
     'description-DE': 'in Öl eingelegt, mit Balsamico-Dressing',
@@ -44,6 +49,7 @@ const menu = [
   {
     url: 'assets/img/menu/salads/Avocado_Cheese_Salad.avif',
     'name-EN': 'Avocado Cheese Salad',
+    'name-DE': 'Avocado Cheese Salat',
     price: '10,50',
     category: 'salads',
     'description-DE': 'mit Balsamico-Dressing',
@@ -52,6 +58,7 @@ const menu = [
   {
     url: 'assets/img/menu/salads/Tuna_Salad.avif',
     'name-EN': 'Tuna Salad',
+    'name-DE': 'Tuna Salat',
     price: '11,50',
     category: 'salads',
     'description-DE': 'mit Balsamico-Dressing',
@@ -61,6 +68,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Margherita_Pizza.avif',
     'name-EN': 'Margherita Pizza',
+    'name-DE': 'Margherita Pizza',
     price: '11,00',
     category: 'pizza',
     'description-DE': 'mit Tomatensoße Gustarosso, Fior di Latte und Basilikum',
@@ -69,6 +77,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Vegetariana_Pizza.avif',
     'name-EN': 'Vegetariana Pizza',
+    'name-DE': 'Vegetariana Pizza',
     price: '12,00',
     category: 'pizza',
     'description-DE':
@@ -79,6 +88,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Carciofi_Pizza.avif',
     'name-EN': 'Carciofi Pizza',
+    'name-DE': 'Carciofi Pizza',
     price: '12,00',
     category: 'pizza',
     'description-DE': 'vegan oder vegetarisch\nmit Artischocken, Spinat und getrockneten Tomaten',
@@ -87,6 +97,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Quattro_Formaggi_Pizza.avif',
     'name-EN': 'Quattro Formaggi Pizza',
+    'name-DE': 'Quattro Formaggi Pizza',
     price: '12,00',
     category: 'pizza',
     'description-DE': 'mit vier verschiedenen Käsesorten',
@@ -95,6 +106,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Tonno_Pizza.avif',
     'name-EN': 'Tonno Pizza',
+    'name-DE': 'Tonno Pizza',
     price: '14,00',
     category: 'pizza',
     'description-DE': 'mit Tomatensoße Gustarosso, Fior di Latte, Thunfisch, Zwiebeln und Oregano',
@@ -103,6 +115,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Burrata_Pizza.avif',
     'name-EN': 'Burrata Pizza',
+    'name-DE': 'Burrata Pizza',
     price: '14,50',
     category: 'pizza',
     'description-DE': 'mit Tomatensoße Gustarosso, Büffelburrata aus Brandenburg und Basilikum',
@@ -111,6 +124,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Bufala_Pizza.avif',
     'name-EN': 'Bufala Pizza',
+    'name-DE': 'Bufala Pizza',
     price: '15,00',
     category: 'pizza',
     'description-DE':
@@ -121,6 +135,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Pastrami_Pizza.avif',
     'name-EN': 'Pastrami Pizza',
+    'name-DE': 'Pastrami Pizza',
     price: '15,00',
     category: 'pizza',
     'description-DE':
@@ -131,6 +146,7 @@ const menu = [
   {
     url: 'assets/img/menu/pizza/Salmone_Pizza.avif',
     'name-EN': 'Salmone Pizza',
+    'name-DE': 'Salmone Pizza',
     price: '16,00',
     category: 'pizza',
     'description-DE': 'mit Creme Fraiche, Räucherlachs, Avocado, Hirtenkäse und rosa Pfeffer',
@@ -140,6 +156,7 @@ const menu = [
   {
     url: '',
     'name-EN': 'Penne Napoli',
+    'name-DE': 'Penne Napoli',
     price: '11,00',
     category: 'pasta',
     'description-DE': 'Kurznudeln mit Tomatensoße',
@@ -148,6 +165,7 @@ const menu = [
   {
     url: 'assets/img/menu/pasta/Lasagne.avif',
     'name-EN': 'Lasagne',
+    'name-DE': 'Lasagne',
     price: '11,50',
     category: 'pasta',
     'description-DE': 'selbstgemacht',
@@ -156,6 +174,7 @@ const menu = [
   {
     url: '',
     'name-EN': 'Penne Arrabiata',
+    'name-DE': 'Penne Arrabiata',
     price: '12,00',
     category: 'pasta',
     'description-DE': 'Kurznudeln mit Napolisoße, Chili und Knoblauch',
@@ -164,6 +183,7 @@ const menu = [
   {
     url: '',
     'name-EN': 'Tagliatelle Ragú alla Bolognese',
+    'name-DE': 'Tagliatelle Ragú alla Bolognese',
     price: '13,50',
     category: 'pasta',
     'description-DE': 'Bandnudeln mit Rindfleisch-Ragú',
@@ -172,6 +192,7 @@ const menu = [
   {
     url: '',
     'name-EN': 'Tagliatelle Salmone',
+    'name-DE': 'Tagliatelle Salmone',
     price: '16,00',
     category: 'pasta',
     'description-DE': 'Bandnudeln mit Rose-Soße, Lachsfilet, Dill, Petersilie und Datteltomaten',
@@ -181,6 +202,7 @@ const menu = [
   {
     url: '',
     'name-EN': 'Tagliatelle con Crema al Tartufo',
+    'name-DE': 'Tagliatelle con Crema al Tartufo',
     price: '16,00',
     category: 'pasta',
     'description-DE': 'Bandnudeln mit Steinpilzen, Trüffelcreme und Trüffelöl',
@@ -190,6 +212,7 @@ const menu = [
   {
     url: 'assets/img/menu/dessert/Tiramisu.avif',
     'name-EN': 'Tiramisu',
+    'name-DE': 'Tiramisu',
     price: '7,00',
     category: 'dessert',
     'description-DE':
@@ -201,6 +224,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Proviant_Cola_0,33l.avif',
     'name-EN': 'Proviant Cola 0,33l',
+    'name-DE': 'Proviant Cola 0,33l',
     price: '3,00',
     category: 'drinks',
     'description-DE': 'inkl. 0,08€ Pfand, 9,09€/l',
@@ -209,6 +233,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Proviant_Cola_Sugarfree_0,33l.avif',
     'name-EN': 'Proviant Cola Sugarfree 0,33l',
+    'name-DE': 'Proviant Cola Zuckerfrei 0,33l',
     price: '3,00',
     category: 'drinks',
     'description-DE': 'inkl. 0,08€ Pfand, 9,09€/l',
@@ -217,6 +242,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Proviant_Limo_Orange_Lemonade_0,33l.avif',
     'name-EN': 'Proviant Limo Orange Lemonade 0,33l',
+    'name-DE': 'Proviant Limo Orangenlimonade 0,33l',
     price: '3,00',
     category: 'drinks',
     'description-DE': 'inkl. 0,08€ Pfand, 9,09€/l',
@@ -225,6 +251,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Proviant_Limo_Lemonade_0,33l.avif',
     'name-EN': 'Proviant Limo Lemonade 0,33l',
+    'name-DE': 'Proviant Zitronenlimonade 0,33l',
     price: '3,00',
     category: 'drinks',
     'description-DE': 'inkl. 0,08€ Pfand, 9,09€/l',
@@ -233,6 +260,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Proviant_Limo_Lemon_Ginger_0,33l.avif',
     'name-EN': 'Proviant Limo Lemon & Ginger 0,33l',
+    'name-DE': 'Proviant Zitronenlimonade & Ingwer 0,33l',
     price: '3,00',
     category: 'drinks',
     'description-DE': 'inkl. 0,08€ Pfand, 9,09€/l',
@@ -241,6 +269,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Proviant_Limo_Rhubarb_Lemonade_0,33l.avif',
     'name-EN': 'Proviant Limo Rhubarb Lemonade 0,33l',
+    'name-DE': 'Proviant Limo Rhabarberlimonade 0,33l',
     price: '3,00',
     category: 'drinks',
     'description-DE': 'inkl. 0,08€ Pfand, 9,09€/l',
@@ -249,6 +278,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Proviant_Spritzer_Apple_0,33l.avif',
     'name-EN': 'Proviant Spritzer Apple 0,33l',
+    'name-DE': 'Proviant Schorle Apple 0,33l',
     price: '3,00',
     category: 'drinks',
     'description-DE': 'inkl. 0,08€ Pfand, 9,09€/l',
@@ -257,6 +287,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Viva_con_Agua_Sparkling_0,33l.avif',
     'name-EN': 'Viva con Agua Sparkling 0,33l',
+    'name-DE': 'Viva con Agua Laut 0,33l',
     price: '2,50',
     category: 'drinks',
     'description-DE': 'inkl. 0,15€ Pfand, 7,58€/l',
@@ -265,6 +296,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Viva_con_Agua_Sparkling_0,75l.avif',
     'name-EN': 'Viva con Agua Sparkling 0,75l',
+    'name-DE': 'Viva con Agua Laut 0,75l',
     price: '4,80',
     category: 'drinks',
     'description-DE': 'inkl. 0,15€ Pfand, 6,40€/l',
@@ -273,6 +305,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Viva_con_Agua_Still_0,33l.avif',
     'name-EN': 'Viva con Agua Still 0,33l',
+    'name-DE': 'Viva con Agua Leise 0,33l',
     price: '2,50',
     category: 'drinks',
     'description-DE': 'inkl. 0,15€ Pfand, 7,58€/l',
@@ -281,6 +314,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Viva_con_Agua_Still_0,75l.avif',
     'name-EN': 'Viva con Agua Still 0,75l',
+    'name-DE': 'Viva con Agua Leise 0,75l',
     price: '4,80',
     category: 'drinks',
     'description-DE': 'inkl. 0,15€ Pfand, 6,40€/l',
@@ -289,6 +323,7 @@ const menu = [
   {
     url: 'assets/img/menu/drinks/Ostmost_Apple_Juice_0,33l.avif',
     'name-EN': 'Ostmost Apple Juice 0,33l',
+    'name-DE': 'Ostmost Apple Juice 0,33l',
     price: '3,00',
     category: 'drinks',
     'description-DE': 'inkl. 0,08€ Pfand, 9,09€/l',
@@ -300,7 +335,6 @@ const language = localStorage.getItem('language') || 'DE'
 const menuContainer = document.getElementById('menu-container')
 
 for (const item of menu) {
-  item['name-DE'] = item['name-EN']
   const colEl = document.createElement('div')
   colEl.classList = `col-lg-6 menu-item filter-${item.category}`
 

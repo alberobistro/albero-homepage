@@ -1,3 +1,66 @@
+const translations = {
+  DE: {
+    home: 'Home',
+    about: 'Über uns',
+    gallery: 'Galerie',
+    menu: 'Speisekarte',
+    contact: 'Kontakt',
+    welcome: 'Willkommen in ',
+    'welcome-subtitle':
+      'Speisen aus nachhaltigen Lebensmitteln, hergestellt von regionalen Erzeugern!',
+    'about-text': `Speisen aus nachhaltigen Lebensmitteln, hergestellt von regionalen Erzeugern. Darauf legen wir besonderen Wert. Unsere Tomatensauce Gustarosso wird 100% aus Tomaten von traditionellen Erzeugern einer landwirtschaftlichen Genossenschaft aus der Region Kampanien (Italien) hergestellt. Für unsere Pizzen verwenden wir feinste Fior di  Latte, ebenfalls von Erzeugern aus dieser Region. Unser hochwertiger Büffelmozzarella und Burrata wird aus der Milch der Wasserbüffel hergestellt, die auf einem Bauernhof in Brandenburg mit freiem Auslauf auf grünem Weideland leben.`,
+    all: 'Alles',
+    starters: 'Vorspeisen',
+    salads: 'Salate',
+    dessert: 'Nachtisch',
+    drinks: 'Getränke',
+    location: 'Standort',
+    opening: 'Öffnungszeiten',
+    'opening-times': `
+      Montag-Freitag:
+      12:00 - 22:00
+      Samstag-Sonntag:
+      16:00 - 22:00
+    `,
+    'opening-times-short': 'Mo-Fr: 12 - 22, Sam-Sonn: 16 - 22',
+    phone: 'Telefon',
+  },
+  EN: {
+    home: 'Home',
+    about: 'About',
+    gallery: 'Gallery',
+    menu: 'Menu',
+    contact: 'Contact',
+    welcome: 'Welcome in ',
+    'welcome-subtitle': 'Dishes made from sustainable food, made by local producers!',
+    'about-text': `Dishes made from sustainable food, made by local producers. On it we attach particular importance. Our Gustarosso tomato sauce is made from 100% tomatoes traditional producers of an agricultural cooperative from the region Made in Campania (Italy). We use the finest Fior di for our pizzas Latte, also from producers in this region. Our high quality Buffalo mozzarella and burrata is made from the milk of the water buffalo that live on a farm in Brandenburg with free exercise on green pastureland.`,
+    all: 'All',
+    starters: 'Starters',
+    salads: 'Salads',
+    dessert: 'Dessert',
+    drinks: 'Drinks',
+    location: 'Location',
+    opening: 'Opening times',
+    'opening-times': `
+      Monday-Friday:
+      12:00 - 22:00
+      Saturday-Sunday:
+      16:00 - 22:00
+    `,
+    'opening-times-short': 'Mo-Fr: 12 - 22, Sat-Sun: 16 - 22',
+    phone: 'Phone',
+  },
+}
+
+// Replace the inner text of the given HTML element
+// with the translation in the active locale,
+// corresponding to the element's data-i18n-key
+const translateElement = (locale) => (element) => {
+  const key = element.getAttribute('data-i18n')
+  const translation = translations[locale][key]
+  element.innerText = translation
+}
+
 /**
  * Template Name: Restaurantly - v3.1.0
  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
@@ -17,6 +80,14 @@
     localStorage.setItem('language', selectedLanguage)
     location.reload()
   }
+
+  // When the page content is ready...
+  document.addEventListener('DOMContentLoaded', () => {
+    document
+      // Find all elements that have the key attribute
+      .querySelectorAll('[data-i18n]')
+      .forEach(translateElement(currentLanguage))
+  })
 
   /**
    * Easy selector helper function
