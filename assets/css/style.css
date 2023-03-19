@@ -8,6 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#language-btn {
+  cursor: pointer;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: #0c0b09;
