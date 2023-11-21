@@ -268,7 +268,7 @@ const translateElement = (locale) => (element) => {
    */
   window.addEventListener('load', () => {
     const pdf = document.querySelector('#menu-container')
-    pdf.setAttribute('data', 'assets/menu/How to Embed PDF in HTML.pdf')
+    pdf.setAttribute('data', 'assets/menu/PLACEHOLDER.pdf')
   })
 
   /**
