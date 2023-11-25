@@ -61,6 +61,24 @@ const translateElement = (locale) => (element) => {
   element.innerHTML = translation
 }
 
+const galleryPhotos = ['assets/img/gallery/GALLERY_IMAGE_PLACEHOLDER.jpg']
+const galleryRow = document.querySelector('#gallery-row')
+for (const photo of galleryPhotos) {
+  galleryRow.innerHTML += `
+    <div class="col-md-4">
+      <div class="gallery-item">
+        <a
+          href="${photo}"
+          class="gallery-lightbox"
+          data-gall="gallery-item"
+        >
+          <img src="${photo}" alt="" class="img-fluid" />
+        </a>
+      </div>
+    </div>
+  `
+}
+
 /**
  * Template Name: Restaurantly - v3.1.0
  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
@@ -316,13 +334,6 @@ const translateElement = (locale) => (element) => {
         spaceBetween: 20,
       },
     },
-  })
-
-  /**
-   * Initiate gallery lightbox
-   */
-  const galleryLightbox = GLightbox({
-    selector: '.gallery-lightbox',
   })
 
   /**
