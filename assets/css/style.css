@@ -1776,3 +1776,44 @@ section {
   display: flex;
   align-items: center;
 }
+
+.secondary-page-container {
+  padding: 20dvh 5dvw;
+}
+
+.secondary-page-container > .impressum-section {
+  padding-top: 20px;
+}
+
+.cookie-consent {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cookie-consent > p {
+  margin: 0 20px;
+}
+
+.cookie-consent > button {
+  background-color: #cda45e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
