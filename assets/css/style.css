@@ -1776,9 +1776,3 @@ section {
   display: flex;
   align-items: center;
 }
-
-#menu-container {
-  border: 15px solid #cda45e;
-  width: 100%;
-  height: 720px;
-}
