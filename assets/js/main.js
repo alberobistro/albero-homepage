@@ -19,6 +19,8 @@ const translations = {
     salads: 'Salate',
     dessert: 'Nachtisch',
     drinks: 'Getränke',
+    'menu-content':
+      'Schauen Sie sich <a href="https://maps.app.goo.gl/KN1E9RspH3nBKSqQ8" target="_blank">hier</a> unsere Speisekarte an.',
     location: 'Standort',
     opening: 'Öffnungszeiten',
     'opening-times': `
@@ -101,6 +103,8 @@ const translations = {
     salads: 'Salads',
     dessert: 'Dessert',
     drinks: 'Drinks',
+    'menu-content':
+      'Check our menu <a href="https://maps.app.goo.gl/EfhATo2Jx4QwP7eC7" target="_blank">here</a>.',
     location: 'Location',
     opening: 'Opening times',
     'opening-times': `
@@ -391,48 +395,6 @@ const translateElement = (locale) => (element) => {
       preloader.remove()
     })
   }
-
-  /**
-   * Menu isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let menuContainer = select('.menu-container')
-    if (menuContainer) {
-      let menuIsotope = new Isotope(menuContainer, {
-        itemSelector: '.menu-item',
-        layoutMode: 'fitRows',
-      })
-
-      let menuFilters = select('#menu-flters li', true)
-
-      on(
-        'click',
-        '#menu-flters li',
-        function (e) {
-          e.preventDefault()
-          menuFilters.forEach(function (el) {
-            el.classList.remove('filter-active')
-          })
-          this.classList.add('filter-active')
-
-          menuIsotope.arrange({
-            filter: this.getAttribute('data-filter'),
-          })
-          menuIsotope.on('arrangeComplete', function () {
-            AOS.refresh()
-          })
-        },
-        true
-      )
-    }
-  })
-
-  /**
-   * Initiate glightbox
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox',
-  })
 
   /**
    * Events slider
