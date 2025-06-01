@@ -27,9 +27,9 @@ const translations = {
       Montag-Freitag:</br>
       12:00 - 22:00</br>
       Samstag-Sonntag:</br>
-      16:00 - 22:00</br>
+      13:00 - 22:00</br>
     `,
-    'opening-times-short': 'Mo-Fr: 12 - 22, Sam-Sonn: 16 - 22',
+    'opening-times-short': 'Mo-Fr: 12 - 22, Sam-Sonn: 13 - 22',
     phone: 'Telefon',
     'impressum-content': `
     <h4>Angaben Gemäss § 5 TMG</h4>
@@ -45,7 +45,7 @@ const translations = {
       <div class="impressum-section">
         <p>
           <span>Telefon:</span>
-          <a href="tel:+4915210256215">+49 152 10256215</a><br />
+          <a href="tel:+491746736245">+49 174 6736245</a><br />
           <span>Email:</span>
           <a href="mailto:alberobistro@gmail.com">alberobistro@gmail.com</a><br />
         </p>
@@ -111,9 +111,9 @@ const translations = {
       Monday-Friday:</br>
       12:00 - 22:00<br/>
       Saturday-Sunday:</br>
-      16:00 - 22:00</br>
+      13:00 - 22:00</br>
     `,
-    'opening-times-short': 'Mo-Fr: 12 - 22, Sat-Sun: 16 - 22',
+    'opening-times-short': 'Mo-Fr: 12 - 22, Sat-Sun: 13 - 22',
     phone: 'Phone',
     'impressum-content': `
     <h4>Angaben Gemäss § 5 TMG</h4>
@@ -129,7 +129,7 @@ const translations = {
       <div class="impressum-section">
         <p>
           <span>Phone:</span>
-          <a href="tel:+4915210256215">+49 152 10256215</a><br />
+          <a href="tel:+491746736245">+49 174 6736245</a><br />
           <span>Email:</span>
           <a href="mailto:alberobistro@gmail.com">alberobistro@gmail.com</a><br />
         </p>
